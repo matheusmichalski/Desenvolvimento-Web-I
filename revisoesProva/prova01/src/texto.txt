@@ -1,0 +1,118 @@
+
+
+Links
+
+https://www.facebook.com/sbcbrasil
+
+https://www.instagram.com/sbcoficial/
+
+https://www.youtube.com/sociedadebrasileiradecomputacao
+
+https://www.linkedin.com/company/sbcoficial/
+
+
+
+Sobre a SBC
+
+A Sociedade Brasileira de Computação – SBC é uma Sociedade científica sem fins lucrativos, fundada em 24 de julho de 1978, que reúne estudantes, professores, profissionais, pesquisadores e entusiastas da área de Computação e Informática de todo o Brasil. A SBC tem como função fomentar o acesso à informação e cultura por meio da informática, promover a inclusão digital, incentivar a pesquisa e o ensino em computação no Brasil, e contribuir para a formação do profissional da computação com responsabilidade social.
+
+Somos filiados à Sociedade Brasileira para o Progresso da Ciência (SBPC), associados a International Federation for Information Processing (IFIP) e ao Centro Latino-americano de Estudios en Informatica (CLEI), além de mantermos cooperação com várias sociedades, como a Sociedade Brasileira de Informática em Saúde (SBIS), Associação Brasileira de Pesquisadores Negros (ABPN), Sociedade Brasileira de Matemática Aplicada e Computacional (SBMAC), entre outras.
+
+
+Visando cumprir sua missão, a SBC tem como finalidades principais:
+• Incentivar atividades de ensino, pesquisa e desenvolvimento em computação e informática no Brasil;
+• Zelar pela preservação e aprimoramento do espírito crítico, responsabilidade profissional e personalidade nacional da comunidade técnico-científica que atua no setor de computação no país;
+• Manter-se permanentemente atenta à política governamental que afeta as atividades de computação no Brasil, no sentido de assegurar a emancipação tecnológica do país;
+• Promover a disseminação do conhecimento científico, através de reuniões, congressos, conferências e publicações;
+• Contribuir para o desenvolvimento científico e tecnológico do país.
+
+Eventos e Conferências
+
+A SBC organiza uma série de eventos e conferências ao longo do ano, que servem como plataformas para a troca de conhecimentos e experiências entre profissionais, acadêmicos e estudantes. Entre os eventos mais destacados estão o Congresso da Sociedade Brasileira de Computação (CSBC), a Conferência Latino-Americana de Informática (CLEI) e a Conferência Brasileira de Informática na Educação (CBIE). Esses eventos proporcionam oportunidades para a apresentação de pesquisas, discussão de tendências emergentes e networking entre os participantes.
+
+Além dos grandes eventos, a SBC também apoia conferências regionais e encontros temáticos que abordam questões específicas da computação, como segurança da informação, inteligência artificial e desenvolvimento de software. Esses encontros são cruciais para manter a comunidade atualizada e promover o intercâmbio de ideias, contribuindo para o avanço contínuo da área.
+
+Publicações e Periódicos
+
+A SBC é responsável por uma série de publicações científicas de alta qualidade, que disseminam os avanços e as descobertas na área de computação. Entre as principais publicações estão a Revista Brasileira de Computação (RBC), o Journal of Internet Services and Applications (JISA) e o Journal of Software Engineering Research and Development (JSERD). Esses periódicos são veículos importantes para a divulgação de pesquisas inovadoras e contribuem para o fortalecimento da ciência da computação no Brasil.
+
+
+
+
+Artigos
+A imagem de cada artigo deve funcionar como link para o mesmo
+
+Uma proposta para Federated Learning em Cibersegurança
+Link: https://sol.sbc.org.br/index.php/eradrs/article/view/24519
+Neste artigo, propõem-se dois métodos de votação para Ensemble Learning em Federated Learning e Cibersegurança. As propostas consideram características em dados de cibersegurança e aumentam a eficiência de sistemas que classificam tráfego de rede.
+10/05/2023
+
+
+
+Memorabilia: aplicativo de realidade aumentada para suporte a pessoas com transtornos neurocognitivos
+https://sol.sbc.org.br/index.php/svr_estendido/article/view/12955
+O Memorabilia é um aplicativo iOS de realidade aumentada que implementa um palácio da memória virtual com o objetivo de auxiliar pessoas com transtornos neurocognitivos a recordarem mem´orias afetivas e a realizarem tarefas cotidianas. O aplicativo utiliza a câmera do celular para mapear o ambiente e interagir com os elementos virtuais, e a biblioteca pessoal do usuário para personalizar a experiência com lembretes audiovisuais. O aplicativo busca estimular o usuário a explorar, raciocinar, memorizar e se movimentar de forma interativa e autônoma. Foram realizados testes no decorrer do desenvolvimento. Testes finais com o público-alvo serão realizados posteriormente.
+07/11/2020
+
+
+Predição de Evasão Escolar na Licenciatura em Computação
+https://journals-sol.sbc.org.br/index.php/rbie/article/view/2997
+No primeiro ano de graduação e ao longo do curso de Licenciatura em Computação, os alunos expressam grandes dificuldades nas disciplinas de programação, seja pela ausência de conhecimento prévio, dificuldades na resolução de problemas, raciocínio lógico-matemático, abstração, entre outros fatores desconhecidos. Os dados dos históricos acadêmicos dos alunos, representam dados relevantes para prever o risco de evasão na Licenciatura em Computação da Universidade do Estado do Amazonas. Diante dos elevados índices de reprovações nas disciplinas do curso, foi levantada a seguinte hipótese "É possível prever os alunos evadidos na Licenciatura em Computação?". Este artigo apresenta uma mineração de dados educacionais, cujo objetivo é a previsão de alunos com risco de evasão. Esta pesquisa seguiu a metodologia de descoberta de conhecimento em base de dados, que consistiu em selecionar e preparar os dados para o treinamento do modelo preditivo de rede neural de múltiplas camadas. Os resultados obtidos com modelo preditivo foram avaliados, por meio de métricas de avaliação de desempenho, identificou-se com 98% de precisão os alunos com risco de evadir do curso.
+12/03/2021
+
+
+
+Grupos de Interesse
+
+Um GI representa um grupo de associados à SBC com comum, isto é, uma comunidade de interesse, que deseja manter um espaço institucional para a discussão científica em torno de um tema ou área de discussão.
+Os GIs devem estar ligados a no mínimo uma CE ou excepcionalmente pode ser independente de CEs, devendo estar, caso, diretamente a uma GA ou até mesmo a Diretoria de Eventos e Comissões Especiais da SBC.
+
+Distribuição dos GIs
+
+Computação em Nuvem
+https://www.sbc.org.br/403-comissoes-especiais/grupos-de-interesse/166-interesse-1/2265-computacao-em-nuvem
+Coordenador: Philippe Olivier Alexandre Navaux 
+Email:navaux@inf.ufrgs.br
+
+Mineração e Análise de Redes Sociais
+https://www.sbc.org.br/2477_comissoes_especiais_grupos_de_interesses_mineracao_analises_de_redes_sociais
+Coordenador: Jonice Oliveira
+Email: 	jonice@ic.ufrj.br 
+
+
+Lógica
+https://www.sbc.org.br/403-comissoes-especiais/grupos-de-interesse/166-interesse-1/2267-interesse-em-logica
+Coordenador:Bruno Lopes
+Email:bruno@ic.uff.br
+
+
+
+FORMULÁRIO
+
+Categorias
+Estudante
+Professor
+Profissional liberal
+Outro
+
+Linhas de pesquisa
+Inteligência Artificial e Aprendizado de Máquina
+Sistemas de Informação
+Engenharia de Software
+Computação em Nuvem e Distribuída
+Cibersegurança e Privacidade
+
+
+
+
+
+Av. Bento Gonçalves, 9500 | Setor 4 | Prédio 43.412 | Sala 219 | Bairro Agronomia
+Caixa Postal 15012 | CEP 91501-970
+Porto Alegre - RS
+
+CNPJ: 29.532.264/0001-78
+
+Copyright © 2024 www.sbc.org.br. Todos os direitos reservados.
+
+
+

@@ -3,24 +3,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portal DesenvolvimentoWeb</title>
+    <title>Página Desenvolvimento Web</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Portal Desenvolvimento Web I</h1>
+        <h1>Página Desenvolvimento Web</h1>
     </header>
     <main>
-        <h2>Atividades Realizadas:</h2>
-        <ul>
-            <li><a href="atv-duna/index.html">Portal Duna</a></li>
-            <li><a href="atv-duna/index.html">Fomulário de Contato</a></li>
-            <li><a href="atv-ifc/index.html">Portal IFC</a></li>
-            <li><a href="atv-paginaEstudante/index.html">Página do Estudante</a></li>
-        </ul>
-        <h2>Ativdades em Andamento</h2>
-        <ul>
-            <li><a href="atv-portifolio/index.html">Simulação Portifólio</a></li>
-        </ul>
+        <section id="atividades-feitas">
+            <h2>Atividades Feitas:</h2>
+            <ul>
+                <li><a href="atv-paginaEstudante/index.html">Pagina Pessoal</a></li>
+                <li><a href="atv-ifc/index.html">Portal IFC</a></li>
+                <li><a href="atv-formulario-contato/index.html">Formulário de Contato</a></li>
+                <li><a href="atv-duna/index.html">Portal Duna</a></li>
+            </ul>
+        </section>
+        <section id="atividades-a-fazer">
+            <h2>Atividades a Fazer:</h2>
+            <ul>
+                <li><a href="atv-portifolio/index.html">Portifólio Divulgação</a></li>
+            </ul>
+        </section>
     </main>
+    <footer>
+        <p> Desenvolvido por Matheus Miguel Michalski </p>
+    </footer>
 </body>
 </html>
+
+
+<style>
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #FFFFFF;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+header, footer {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #fa7d01;
+}
+
+h2 {
+    font-size: 1.8em;
+    color: #03DAC6;
+    margin-bottom: 10px;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+section {
+    background-color: #1E1E1E;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    flex-basis: 45%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    background-color: #333;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+}
+a {
+    display: block;
+    background-color: #333;
+    padding: 1px;
+    border-radius: 4px;
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+a:hover {
+    background-color: #444;
+}
+
+
+footer p {
+    font-size: 0.9em;
+    color: #888;
+}
+
+</style>

@@ -25,7 +25,7 @@ html body a {
 }
 
 main {
-  margin: 0 20vw 0 20vw;
+  margin: 0 10vw 0 10vw;
 }
 
 /* ==================
@@ -56,7 +56,15 @@ header nav ul li.pagAtual a {
 
 main.works section {
   border-bottom: 1px solid #e0e0e0;
-  padding: 4vw 0 2vw 0;
+  padding: 3vw 0 0.3vw}
+
+  section.banner button {
+    font-size: 0.7rem;
+    background-color: #ff6464;
+    border-radius: 2px;
+    padding: 15px 15px 15px 15px;
+    color: #ffff;
+    border: none;;
 }
 
 main.works section p {
@@ -102,7 +110,7 @@ section.banner button {
 }
 
 section.rt-post {
-  background-color: #cdd9db;
+  background-color: #8695A4;
   padding: 2vw 1vw 2vw 5px
 }
 
@@ -114,7 +122,8 @@ section.rt-post ul {
 
 section.rt-post ul li {
   background-color: white;
-  padding: 0 3vw 0 0;
+  padding: 1vw 3vw 1vw 3vw;
+  margin: 0 2vw 0 0;
 }
 
 section.rt-post ul li:last-child {
@@ -122,7 +131,7 @@ section.rt-post ul li:last-child {
 }
 
 section.rt-post ul li p {
-  margin: 0.7vw 1.5vw 0.7vw 1.5vw;
+  margin: 0.7vw 0 0.7vw 0 ;
   font-size: 0.8rem;
 }
 
@@ -133,7 +142,49 @@ section.rt-post ul li h3 {
 
 section.rt-post h2 {
   font-weight: normal;
+  margin: 0 0 1vw 0;
 }
+
+section.ft-works h2 {
+  font-weight: normal;
+  margin: 1.3vw 0 1.3vw 0;
+}
+
+section.ft-works > div {
+  display: flex
+}
+
+section.ft-works div h3 {
+  margin: 1vw 0 1vw 0;
+}
+
+section.ft-works div div {
+  margin: 0 1vw 0 1vw;
+}
+
+section.ft-works div div p {
+  margin: 1vw 0 1vw 0;
+  font-size: 0.8rem;
+}
+
+.ft-works-texts{
+  color: #8695a4;
+}
+
+
+section.ft-works div div span {
+  color:white ;
+  padding: 3px 14px 3px 14px;
+  margin: 0 3px 0 3px;
+  background-color: #21243d;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+section.ft-works {
+  font-size: 1rem;
+}
+
 
 /* ==================
    Formatação do Rodapé;

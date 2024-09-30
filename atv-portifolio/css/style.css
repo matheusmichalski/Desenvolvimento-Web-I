@@ -6,7 +6,7 @@
   margin: 0;
   vertical-align: baseline;
   list-style: none;
-  border: 0
+  border: 0;
 }
 
 /* ==================
@@ -15,7 +15,8 @@
 
 html {
   font-size: calc(10px + 1vw);
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   color: #21243d;
 }
 
@@ -33,9 +34,8 @@ main {
  ===================== */
 
 header {
-  margin: 0 5vw 3vw 5vw
+  margin: 0 5vw 3vw 5vw;
 }
-
 
 header nav ul {
   display: flex;
@@ -56,15 +56,16 @@ header nav ul li.pagAtual a {
 
 main.works section {
   border-bottom: 1px solid #e0e0e0;
-  padding: 3vw 0 0.3vw}
+  padding: 3vw 0 0.3vw;
+}
 
-  section.banner button {
-    font-size: 0.7rem;
-    background-color: #ff6464;
-    border-radius: 2px;
-    padding: 15px 15px 15px 15px;
-    color: #ffff;
-    border: none;;
+section.banner button {
+  font-size: 0.7rem;
+  background-color: #ff6464;
+  border-radius: 2px;
+  padding: 15px 15px 15px 15px;
+  color: #ffff;
+  border: none;
 }
 
 main.works section p {
@@ -77,13 +78,10 @@ main.works section span {
   border-radius: 20px;
   padding: 3px 14px 3px 14px;
   font-weight: bold;
-
 }
-
 
 main.works section:last-child {
   border: none;
-  ;
 }
 
 /* ==================
@@ -110,10 +108,9 @@ section.banner button {
 }
 
 section.rt-post {
-  background-color: #8695A4;
-  padding: 2vw 1vw 2vw 5px
+  background-color: #8695a4;
+  padding: 2vw 1vw 2vw 5px;
 }
-
 
 section.rt-post ul {
   margin: 0 1vw 0 1vw;
@@ -131,7 +128,7 @@ section.rt-post ul li:last-child {
 }
 
 section.rt-post ul li p {
-  margin: 0.7vw 0 0.7vw 0 ;
+  margin: 0.7vw 0 0.7vw 0;
   font-size: 0.8rem;
 }
 
@@ -151,7 +148,7 @@ section.ft-works h2 {
 }
 
 section.ft-works > div {
-  display: flex
+  display: flex;
 }
 
 section.ft-works div h3 {
@@ -167,13 +164,12 @@ section.ft-works div div p {
   font-size: 0.8rem;
 }
 
-.ft-works-texts{
+.ft-works-texts {
   color: #8695a4;
 }
 
-
 section.ft-works div div span {
-  color:white ;
+  color: white;
   padding: 3px 14px 3px 14px;
   margin: 0 3px 0 3px;
   background-color: #21243d;
@@ -184,7 +180,6 @@ section.ft-works div div span {
 section.ft-works {
   font-size: 1rem;
 }
-
 
 /* ==================
    Formatação do Rodapé;

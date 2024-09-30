@@ -1,6 +1,6 @@
 * {
   padding: 0;
-  margin: 0vw 10vw 10vw 10vw;
+  margin: 0vw 10vw 0vw 10vw;
   vertical-align: baseline;
   list-style: none;
   font: inherit;
@@ -10,11 +10,19 @@
   font-size: 1rem;
 }
 
+html {
+  font-family: "Poppins", sans-serif;
+}
+
 header {
-  margin: 2.5vw 10vw 10vw 10vw;
+  margin: 2.5vw 10vw 5vw 10vw;
   display: flex;
   justify-content: space-between;
   font-size: 1.7rem;
+}
+
+header img {
+  height: 30px;
 }
 
 header ul {
@@ -30,29 +38,99 @@ main section#title {
   display: flex;
 }
 
-main section img {
+section#title img {
   border-radius: 15vw;
 }
 
-main section#title div {
-  margin: 3vw 3vw 3vw 3vw;
-  padding: 1vw 1vw 0vw 0vw;
+section#title div {
+  margin: 3vw 3vw 3vw 5vw;
+  padding: 0 6vw 0 0;
 }
 
-main section#title div h1 {
+section#title div h1 {
   font-family: "Poltawski Nowy", serif;
   font-optical-sizing: auto;
   font-style: normal;
   font-size: 3.3rem;
+  padding: 0 0 30px 0;
 }
 
-main section#title div div#banner div div {
+section#title div p {
+  line-height: 30px;
+}
+
+section#title div#banner {
   display: flex;
-  margin: 0 0vw 0px 0px;
+  align-items: center; /* Alinha verticalmente os itens */
 }
 
-main section#title div div#banner p {
-  padding: 10px 0px 20px 20px;
+section#title div#banner ul {
+  margin: 6px 0 0 1vw;
+}
+
+section#title p {
+  color: #404852;
+}
+
+section#title div#banner ul li:last-child p {
+  color: grey;
+  line-height: 15px;
+}
+
+main section#title div#banner img {
+  align-items: center;
+  border-radius: 25px;
+  height: 50px;
+  width: 50px;
+}
+
+/* Shop Formatation */
+
+section#shop {
+  display: flex;
+}
+
+section#shop div:first-child {
+  padding: 0 15vw 0 0;
+  width: 30vw;
+  margin: 3vw 0 0 0;
+}
+
+section#shop div:first-child h1 {
+  font-size: 4rem;
+  margin: 0 0 1.2vw 0;
+}
+
+section#shop div:first-child p {
+  line-height: 1.5rem;
+}
+
+section#shop div:last-child ul li {
+  display: flex;
+  flex-direction: column;
+  padding: 3vw 0vw 0vw 0vw;
+  width: 30vw;
+  border-bottom: 1px solid grey;
+}
+
+section#shop div:last-child ul li:last-child {
+  border: none;
+}
+
+section#shop div:last-child ul li p {
+  padding: 0.8vw 0 4vw;
+  font-size: 1.11rem;
+  color: grey;
+}
+
+section#shop div:last-child ul li h2 {
+  font-size: 3rem;
+}
+
+section#shop div:last-child ul li h2 span {
+  padding: 0 0.4vw 0 0;
+  font-size: 3rem;
+  color: grey;
 }
 
 /* Footer Formatação  */

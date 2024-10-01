@@ -15,7 +15,7 @@ html {
 }
 
 header {
-  margin: 2.5vw 10vw 5vw 10vw;
+  margin: 2.3vw 10vw 5vw 10vw;
   display: flex;
   justify-content: space-between;
   font-size: 1.7rem;
@@ -39,7 +39,7 @@ main section#title {
 }
 
 section#title img {
-  border-radius: 15vw;
+  border-radius: 200px;
 }
 
 section#title div {
@@ -51,11 +51,19 @@ section#title div h1 {
   font-family: "Poltawski Nowy", serif;
   font-optical-sizing: auto;
   font-style: normal;
-  font-size: 3.3rem;
+  font-size: 4rem;
   padding: 0 0 30px 0;
 }
 
+section#title div#border-0 {
+  border-bottom: 3px solid grey;
+  width: 85px;
+  opacity: 65%;
+}
+
 section#title div p {
+  font-size: 1.2rem;
+  font-weight: 700;
   line-height: 30px;
 }
 
@@ -84,6 +92,13 @@ main section#title div#banner img {
   width: 50px;
 }
 
+div#border-1 {
+  border-bottom: 2px solid rgb(129, 46, 46);
+  width: 85%; /* Define uma largura para a div */
+  margin: 0 auto; /* Centraliza horizontalmente */
+  padding: 10px 20px 30px 40px; /* Topo, direita, baixo, esquerda */
+}
+
 /* Shop Formatation */
 
 section#shop {
@@ -110,7 +125,7 @@ section#shop div:last-child ul li {
   flex-direction: column;
   padding: 3vw 0vw 0vw 0vw;
   width: 30vw;
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.5); /* Cor cinza com 50% de opacidade */
 }
 
 section#shop div:last-child ul li:last-child {
@@ -131,6 +146,12 @@ section#shop div:last-child ul li h2 span {
   padding: 0 0.4vw 0 0;
   font-size: 3rem;
   color: grey;
+}
+
+div#border-2 {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.5); /* Cor cinza com 50% de opacidade */
+  width: 85%;
+  margin: 0 auto;
 }
 
 /* Footer Formatação  */

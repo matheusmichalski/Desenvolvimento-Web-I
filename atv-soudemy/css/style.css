@@ -15,3 +15,54 @@ html {
   font-weight: 300 - 700;
   font-style: normal;
 }
+
+
+/* Body Format */
+
+body a {
+  text-decoration: none;
+  color: black;
+}
+/* Header Format */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 4vw 5vw 0 5vw ;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+header ul {
+  display: flex;
+}
+
+header ul:last-child li {
+  padding: 0 20px 0 0px;
+  font-size: 1.3rem;
+}
+
+
+header ul:last-child li:last-child a{
+  padding: 10px 10px 10px 10px;
+  font-size: 1.48rem;
+  border-radius: 15px;
+  background-color: #0E8388;
+  color: white;
+}
+
+/* Banner Format */
+
+section#banner {
+  display: flex;
+  flex-direction: column;
+}
+
+section#banner img {
+  height: 302px;
+  width: 800px;
+}
+
+
+
+

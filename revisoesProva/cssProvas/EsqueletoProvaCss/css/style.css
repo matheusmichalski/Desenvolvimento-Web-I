@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+  vertical-align: baseline;
+  list-style: none;
+  border: 0;
+  font-family: "Urbanist", sans-serif;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Body geral formatation */
+
+/* Header formatation */
+
+header {
+  padding: 1.5vw 5vw 1.5vw 5vw;
+  display: flex;
+  justify-content: space-between;
+  background-color: #D08AA5;
+  font-size: 1.4rem;
+}
+
+header a {
+  color: white;
+}
+
+
+header ul {
+  display: flex;
+}
+
+header ul li {
+  padding: 0 20px 0 0;
+}
+
+/* Banner formatation */
+
+section.banner {
+  text-align: center;
+}
+
+section.banner p {
+  padding: 10px;
+}

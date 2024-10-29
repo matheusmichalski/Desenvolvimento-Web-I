@@ -69,7 +69,10 @@ section#title div p {
 
 section#title div#banner {
   display: flex;
-  align-items: center; /* Alinha verticalmente os itens */
+}
+
+section#title div#banner img {
+  margin: 8px 0 0 0;
 }
 
 section#title div#banner ul {
@@ -93,7 +96,7 @@ main section#title div#banner img {
 }
 
 div#border-1 {
-  border-bottom: 2px solid rgb(129, 46, 46);
+  border-bottom: 2px solid rgba(128, 128, 128, 0.5);
   width: 85%; /* Define uma largura para a div */
   margin: 0 auto; /* Centraliza horizontalmente */
   padding: 10px 20px 30px 40px; /* Topo, direita, baixo, esquerda */

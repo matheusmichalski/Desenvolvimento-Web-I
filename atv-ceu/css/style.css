@@ -1,0 +1,328 @@
+/*======================
+    Formatação Geral
+=======================*/
+html {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: calc(15px + 0.390625vw);
+  }
+  
+  html a {
+    text-decoration: none;
+  }
+  
+  /*======================
+      Formatação Header
+  =======================*/
+  header a.nav__logo {
+    font-weight: 600;
+    color: #1090CB;
+    font-size: 1.3rem;
+  }
+  
+  header nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 3vw 1vw;
+  }
+  
+  header nav ul {
+    display: flex;
+    padding: 0.5vw 0 0 0;
+  }
+  
+  header nav ul li a {
+    padding: 0 2vw;
+    color: #000;
+  }
+  
+  header nav ul li.nav__item--active a {
+    color: #1090CB;
+  }
+  
+  header nav ul li.nav__item--cta {
+    padding-left: 1vw;
+  }
+  
+  header nav ul li.nav__item--cta a {
+    background-color: #1090CB;
+    border-radius: 8px;
+    padding: 1vw;
+    color: white;
+  }
+  
+  /*======================
+      Formatação Main
+  =======================*/
+  
+  /* Hero Section (antigo experienced) */
+  section.hero {
+    background: #1090CB20;
+    display: flex;
+    align-items: center;
+  }
+  
+  section.hero > div {
+    margin: 8vw 15vw 0 7vw;
+  }
+  
+  section.hero > div h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 2vw;
+  }
+  
+  section.hero > div h1 span {
+    color: #1090CB;
+  }
+  
+  section.hero > div p {
+    line-height: 1.4rem;
+    margin-bottom: 5vw;
+    color: #5C5C5C;
+    font-size: 0.8rem;
+  }
+  
+  section.hero > div button {
+    background-color: #1090CB;
+    border-radius: 8px;
+    font-size: 0.8rem;
+    padding: 1vw 3vw;
+    margin-right: 1vw;
+    color: white;
+    border: none;
+  }
+  
+  section.hero > div button.btn--outline {
+    background-color: #fdfdfd;
+    border: 1px solid #1090CB;
+    color: #1090CB;
+  }
+  
+  /* Features Section (antigo icons) */
+  section.features {
+    border-bottom: 2px solid #c7c7c7;
+    padding-bottom: 5px;
+  }
+  
+  section.features ul {
+    display: flex;
+    justify-content: center;
+  }
+  
+  section.features ul li {
+    display: flex;
+    padding: 4vw 1.5vw;
+  }
+  
+  section.features ul li.features__item--purple img {
+    background-color: #EFEAFF;
+    padding: 1.3vw;
+    border-radius: 25px;
+    margin: 0 1vw;
+  }
+  
+  section.features ul li.features__item--green img {
+    background-color: #ECFFDA;
+    padding: 1.3vw;
+    border-radius: 25px;
+    margin: 0 1vw;
+  }
+  
+  section.features ul li.features__item--blue img {
+    background-color: #DAE6FF;
+    padding: 1.3vw;
+    border-radius: 25px;
+    margin: 0 1vw;
+  }
+  
+  section.features ul li.features__item--orange img {
+    background-color: #FFE5DA;
+    padding: 1vw;
+    border-radius: 25px;
+    margin: 0 1vw;
+  }
+  
+  section.features ul li div {
+    padding-left: 1vw;
+  }
+  
+  section.features ul li div h4 {
+    font-weight: 600;
+    padding-bottom: 0.5vw;
+  }
+  
+  section.features ul li div p {
+    color: #969696;
+    font-size: 0.8rem;
+  }
+  
+  /* About Section (antigo lorem) */
+  section.about div.about__intro {
+    text-align: center;
+  }
+  
+  section.about div.about__intro h2 {
+    font-size: 1.6rem;
+    font-weight: bolder;
+    padding: 7vw 0 3vw;
+  }
+  
+  section.about div.about__intro p {
+    color: #5C5C5C;
+    padding: 0 29vw 10vw;
+    line-height: 1.4rem;
+    font-size: 0.8rem;
+  }
+  
+  section.about div.about__feature {
+    display: flex;
+    margin: 0 5vw;
+    align-items: center;
+  }
+  
+  section.about div.about__feature h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 5vw 8vw 0;
+  }
+  
+  section.about div.about__feature h2 span {
+    color: #1090CB;
+  }
+  
+  section.about div.about__feature p {
+    color: #5C5C5C;
+    font-size: 0.8rem;
+    line-height: 1.4rem;
+    padding: 2vw 7vw 5vw 8vw;
+  }
+  
+  section.about div.about__feature img {
+    padding: 0 5vw 0 0;
+  }
+  
+  section.about div.about__feature--reverse {
+    display: flex;
+    margin: 5vw;
+    align-items: center;
+  }
+  
+  section.about div.about__feature--reverse h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 9vw 8vw 0;
+  }
+  
+  section.about div.about__feature--reverse h2 span {
+    color: #1090CB;
+  }
+  
+  section.about div.about__feature--reverse p {
+    color: #5C5C5C;
+    font-size: 0.8rem;
+    line-height: 1.4rem;
+    padding: 2vw 7vw 10vw 8vw;
+  }
+  
+  section.about div.about__feature--reverse img {
+    padding: 0 5vw 0 0;
+  }
+  
+  /* Highlights Section (antigo kodex) */
+  section.highlights {
+    display: flex;
+    text-align: center;
+    margin: 5vw 8vw;
+    justify-content: space-around;
+  }
+  
+  section.highlights div h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 5vw 12vw 2vw;
+  }
+  
+  section.highlights div p {
+    color: #5C5C5C;
+    padding: 0 8vw 2vw;
+    font-size: 0.8rem;
+    line-height: 1.4rem;
+  }
+  
+  section.highlights div button {
+    border: none;
+    background-color: #1090CB;
+    padding: 0.5vw 1.2vw;
+    border-radius: 8px;
+    color: white;
+    margin-bottom: 2vw;
+  }
+  
+  section.highlights div.highlight--blue {
+    background-color: #1090CB;
+    border-radius: 20px;
+  }
+  
+  section.highlights div.highlight--blue h3,
+  section.highlights div.highlight--blue p {
+    color: white;
+  }
+  
+  section.highlights div.highlight--blue button {
+    color: #1090CB;
+    background-color: white;
+  }
+  
+  /* Newsletter Section (antigo subscribe) */
+  section.newsletter {
+    text-align: center;
+    padding: 3vw 0;
+  }
+  
+  section.newsletter h2 {
+    font-size: 1.6rem;
+    margin-bottom: 2vw;
+  }
+  
+  section.newsletter form p {
+    display: flex;
+    justify-content: center;
+    gap: 1vw;
+  }
+  
+  section.newsletter input[type="email"] {
+    padding: 0.5vw;
+    font-size: 0.8rem;
+  }
+  
+  section.newsletter input[type="submit"] {
+    padding: 0.5vw 1vw;
+    font-size: 0.8rem;
+    background-color: #1090CB;
+    border: none;
+    border-radius: 8px;
+    color: white;
+  }
+  
+  /*======================
+      Formatação Footer
+  =======================*/
+  footer {
+    padding: 2vw;
+    background-color: #f8f8f8;
+    text-align: center;
+    font-size: 0.8rem;
+  }
+  
+  footer div {
+    margin-bottom: 1vw;
+  }
+  
+  footer nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1vw;
+  }
+  
